@@ -86,9 +86,9 @@
 
 📊 Data Details
 
-  - Features: `feature1`, `feature2`, `feature3` represent characteristics of network packets.
-  - Masked IPs: `src_ip`, `dst_ip` are partially hidden for privacy.
-  - Traffic Protocols: `TCP`, `UDP` protocols simulate real-world network traffic.
+  - **Features:** `feature1`, `feature2`, `feature3` represent characteristics of network packets.
+  - **Masked IPs:** `src_ip`, `dst_ip` are partially hidden for privacy.
+  - **Traffic Protocols:** `TCP`, `UDP` protocols simulate real-world network traffic.
 
 ----------------------------------------------------------
 
@@ -152,7 +152,7 @@
 
 ✍️ Author
 
-  Yogesh J L
+  Yogesh J L ,
   Yogesh-J-L(Github Profile)
 
 
