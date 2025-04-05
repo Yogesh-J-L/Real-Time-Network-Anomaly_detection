@@ -1,4 +1,4 @@
-🚀 Real-Time Network Anomaly Detection using NVIDIA RAPIDS, Autoencoder, and DBSCAN
+**🚀 Real-Time Network Anomaly Detection using NVIDIA RAPIDS, Autoencoder, and DBSCAN**
 
 
 📖 Project Description
@@ -7,7 +7,7 @@
 
 --------------------------------------------------------------
 
-💻 Features
+💻 **Features**
 
   - ✅ Real-time network traffic monitoring
   - ✅ Autoencoder-based anomaly detection (PyTorch)
@@ -20,9 +20,9 @@
 
 --------------------------------------------------------------
 
-⚙️ Tech Stack / Tools / Libraries
+⚙️ **Tech Stack / Tools / Libraries**
 
-  |  Tool/Library                       | Purpose/Usage                                    |
+  | **Tool/Library**                    | **Purpose/Usage**                                |
   | ----------------------------------- | ------------------------------------------------ |
   | `cudf`, `cupy`, `cuml` (RAPIDS AI)  | GPU-based data processing, clustering            |
   | `torch` (PyTorch)                   | Autoencoder neural network for anomaly detection |
@@ -34,7 +34,7 @@
 
 ---------------------------------------------------------------
 
-🏗️ Architecture Overview
+🏗️ **Architecture Overview**
 
   ```
   Synthetic Network Data (features + masked IPs)
@@ -60,9 +60,9 @@
 
 ----------------------------------------------------
 
-🧐 Algorithms Used
+🧐 **Algorithms Used**
 
-  | Section           | Algorithm / Model         | Why Used?                                                         |
+  | **Section**       | **Algorithm / Model**     | **Why Used?**                                                     |
   | ----------------- | ------------------------- | ----------------------------------------------------------------- |
   | Clustering        | DBSCAN (cuML GPU)         | Detects outliers, non-linear separation, unsupervised             |
   | Anomaly Detection | Autoencoder (PyTorch)     | Learns normal patterns, reconstruction error highlights anomalies |
@@ -71,20 +71,20 @@
 
 ------------------------------------------------------
 
-📝 How It Works (Flow)
+📝 **How It Works (Flow)**
 
-  1. Data Simulation: Generates synthetic network logs with masked IPs and random features.
-  2. DBSCAN Clustering: Groups similar traffic, detects noise/outliers as potential anomalies.
-  3. Autoencoder Neural Network: Reconstructs normal data; high reconstruction error indicates anomaly.
-  4. Morpheus API Simulation: Adds a secondary simulated threat score.
-  5. Decision Logic: If score exceeds the threshold:
+  1. **Data Simulation:** Generates synthetic network logs with masked IPs and random features.
+  2. **DBSCAN Clustering:** Groups similar traffic, detects noise/outliers as potential anomalies.
+  3. **Autoencoder Neural Network:** Reconstructs normal data; high reconstruction error indicates anomaly.
+  4. **Morpheus API Simulation:** Adds a secondary simulated threat score.
+  5. **Decision Logic:** If score exceeds the threshold:
      - Block IP (simulated DOCA Firewall)
      - Trigger automated takedown.
-  6. Logging: Outputs sample traffic, anomalies, and actions taken.
+  6. **Logging:** Outputs sample traffic, anomalies, and actions taken.
 
 ---------------------------------------------------------
 
-📊 Data Details
+📊 **Data Details**
 
   - **Features:** `feature1`, `feature2`, `feature3` represent characteristics of network packets.
   - **Masked IPs:** `src_ip`, `dst_ip` are partially hidden for privacy.
@@ -92,15 +92,15 @@
 
 ----------------------------------------------------------
 
-🔐 Cybersecurity Relevance
+🔐 **Cybersecurity Relevance**
 
-  - Morpheus API (Simulated): Adds intelligence-based threat analysis.
-  - Firewall Action: Prevents malicious IPs from further interaction.
-  - Takedown Simulation: Demonstrates proactive content removal.
+  - **Morpheus API (Simulated):** Adds intelligence-based threat analysis.
+  - **Firewall Action:** Prevents malicious IPs from further interaction.
+  - **Takedown Simulation:** Demonstrates proactive content removal.
 
 -----------------------------------------------------------
 
-🔎 Commands / Setup
+🔎 **Commands / Setup**
 
   ```bash
   # Check GPU and CUDA versions
@@ -116,7 +116,7 @@
 
 ------------------------------------------------------------
 
-📈 Accuracy / Security Notes
+📈 **Accuracy / Security Notes**
 
   - ✅ Accuracy relies on threshold tuning in:
   - DBSCAN parameters (`eps`, `min_samples`)
@@ -126,7 +126,7 @@
 
 -------------------------------------------------------------
 
-🔐 What is the Morpheus API Key For?
+🔐 **What is the Morpheus API Key For?**
 
   - Represents authentication for external threat analysis.
   - Simulates sending data to NVIDIA Morpheus for advanced ML-based threat detection
@@ -134,13 +134,13 @@
 
 -------------------------------------------------------------
 
-🛠️ License
+🛠️ **License**
 
   - MIT
 
 ------------------------------------------------------------
 
-🌐 API References / Used Concepts
+🌐 **API References / Used Concepts**
 
   - Morpheus API (Simulated)
   - NVIDIA DOCA Firewall API (Simulated)
@@ -150,7 +150,7 @@
 
 -------------------------------------------------------------
 
-✍️ Author
+✍️ **Author**
 
   Yogesh J L ,
   Yogesh-J-L(Github Profile)
