@@ -1,7 +1,7 @@
 **🚀 Real-Time Network Anomaly Detection using NVIDIA RAPIDS, Autoencoder, and DBSCAN**
 
 
-📖 Project Description
+📖 **Project Description**
 
   This project simulates a real-time cybersecurity pipeline for detecting network anomalies using GPU-accelerated tools from NVIDIA RAPIDS, PyTorch, and     unsupervised ML models. It combines an **autoencoder neural network** for anomaly detection and DBSCAN clustering to identify unusual network traffic patterns. Additionally, it simulates firewall actions, automated takedown mechanisms, and **threat scoring** using a simulated **NVIDIA Morpheus API**.
 
